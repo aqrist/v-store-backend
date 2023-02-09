@@ -58,9 +58,9 @@
     <!-- /#right-panel -->
 
     <!-- Scripts -->
-    @stack('after-script')
-    @include('includes.script')
     @stack('before-script')
+    @include('includes.script')
+    @stack('after-script')
 
 </body>
 
